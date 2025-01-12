@@ -1,0 +1,7 @@
+.footer {
+  background-color: var(--cinza-escuro);
+  border-top: 4px solid var(--azul-escuro);
+  box-shadow: rgba(34, 113, 209, 0.3) 0px -19px 38px, rgba(34, 113, 209, 0.22) 0px -15px 12px;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}

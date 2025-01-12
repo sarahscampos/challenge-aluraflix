@@ -1,0 +1,24 @@
+.link {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0.3rem 1.5rem;
+  font-size: 1rem;
+  font-family: var(--fonte-secundaria);
+  font-weight: 700;
+}
+
+.link:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
+  transition: .2s ease-out;
+}
+
+.linkDestacado {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
+  box-shadow: rgba(34, 113, 209, 0.3) 0px -40px 36px -28px inset;
+}
