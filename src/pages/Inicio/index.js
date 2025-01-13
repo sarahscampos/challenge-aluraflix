@@ -1,6 +1,22 @@
 import Banner from 'components/Banner';
 import Container from 'components/Container';
+import SecaoCategoria from 'components/SecaoCategoria';
 import React from 'react'
+
+const categorias = [
+  {
+    nome: 'Front End',
+    cor: '#6BD1FF'
+  },
+  {
+    nome: 'Back End',
+    cor: '#00C86F'
+  },
+  {
+    nome: 'Inovação e Gestão',
+    cor: '#FFBA05'
+  },
+]
 
 const Inicio = () => {
   const urlVideo ='https://www.youtube.com/embed/vJ3CXirefq8?si=_PCESd0OPCG0BWeU';
@@ -8,8 +24,10 @@ const Inicio = () => {
   return (
     <>
     <Container>
-      <Banner topicoVideo='front end' nomeVideo='Teste' descricaoVideo='etc' urlVideo={urlVideo} urlImagem={urlImagem}/>
+      <Banner topicoVideo='front end' nomeVideo='Teste' descricaoVideo='etc' urlVideo={urlVideo} urlImagem={urlImagem} corCategoria='#6BD1FF'/>
 
+      {categorias.map((item, indice) => <SecaoCategoria key={indice} corCategoria={item.cor} categoria={item.nome}/>)}
+      
     </Container>
     </>
     

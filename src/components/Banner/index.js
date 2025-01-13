@@ -2,12 +2,12 @@ import React from "react";
 import styles from './Banner.module.css';
 import Titulo from "components/Titulo";
 
-const Banner = ({topicoVideo, nomeVideo, descricaoVideo, urlVideo, urlImagem}) => {
+const Banner = ({topicoVideo, nomeVideo, descricaoVideo, urlVideo, urlImagem, corCategoria}) => {
   return (
     <>
       <section style={{backgroundImage: `url(${urlImagem})`}} className={styles.container}>
         <div>
-          <Titulo>{topicoVideo}</Titulo>
+          <Titulo corCategoria={corCategoria}>{topicoVideo}</Titulo>
           <h3>{nomeVideo}</h3>
           <p>{descricaoVideo}</p>
         </div>
