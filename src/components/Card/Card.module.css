@@ -33,6 +33,7 @@
   border: none;
   font-family: var(--fonte-principal);
   border-radius: .5rem;
+  cursor: pointer;
 }
 
 .containerBotao button:hover {

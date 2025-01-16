@@ -1,5 +1,6 @@
 import Banner from 'components/Banner';
 import Container from 'components/Container';
+import Modal from 'components/Modal';
 import SecaoCategoria from 'components/SecaoCategoria';
 import React from 'react'
 

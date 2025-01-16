@@ -1,0 +1,95 @@
+.container {
+  background-color: var(--azul-marinho);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 7rem;
+  width: 50vw;
+  position: relative;
+}
+
+.container h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--azul-escuro);
+  font-family: var(--fonte-secundaria);
+}
+
+.botaoSair {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fonte-secundaria);
+}
+
+.formulario label {
+  margin: 1rem 0 .2rem 0;
+}
+
+.formulario input {
+  padding: .8rem .5rem;
+  border-radius: .5rem;
+  border: 3px solid var(--azul-escuro);
+  background-color: transparent;
+  color: white;
+  font-family: var(--fonte-secundaria);
+}
+
+.formulario select {
+  padding: .8rem .5rem;
+  font-family: var(--fonte-secundaria);
+  border-radius: .5rem;
+  border: 3px solid var(--azul-escuro);
+  background-color: transparent;
+  color: white;
+}
+
+.formulario select option {
+  color: black;
+}
+
+.descricao {
+  height: 100px;
+  resize: none;
+  border-radius: .5rem;
+  font-family: var(--fonte-secundaria);
+  border: 3px solid var(--azul-escuro);
+  background-color: transparent;
+  color: white;
+}
+
+.containerBotao button {
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: .5rem;
+  padding: 0.3rem 1.5rem;
+  font-size: 1.1rem;
+  font-family: var(--fonte-secundaria);
+  font-weight: 700;
+}
+
+.containerBotao button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
+  transition: .2s ease-out;
+  box-shadow: rgba(34, 113, 209, 0.3) 0px -40px 36px -28px inset;
+}
+
+.containerBotao {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  margin-bottom: 2.2rem;
+}
+
