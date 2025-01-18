@@ -1,11 +1,29 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.701); /* Fundo opaco */
+  z-index: 900; /* Deve estar abaixo do modal */
+}
+
+
 .container {
   background-color: var(--azul-marinho);
   color: white;
   display: flex;
   flex-direction: column;
   padding: 1rem 7rem;
-  width: 50vw;
-  position: relative;
+  width: 30vw;
+  position: fixed; /* Para fixar no viewport */
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta o centro para o exato meio */
+  z-index: 1000; /* Garante que o modal fique acima de outros elementos */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: adiciona sombra */
+  border-radius: .5rem; /* Opcional: arredonda bordas */
+  
 }
 
 .container h2 {

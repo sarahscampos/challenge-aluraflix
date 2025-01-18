@@ -2,7 +2,8 @@ import Banner from 'components/Banner';
 import Container from 'components/Container';
 import Modal from 'components/Modal';
 import SecaoCategoria from 'components/SecaoCategoria';
-import React from 'react'
+import { ModalContext } from 'Contextos/modal';
+import React, { useContext } from 'react'
 
 const categorias = [
   {
@@ -28,7 +29,6 @@ const Inicio = () => {
       <Banner topicoVideo='front end' nomeVideo='Teste' descricaoVideo='etc' urlVideo={urlVideo} urlImagem={urlImagem} corCategoria='#6BD1FF'/>
 
       {categorias.map((item, indice) => <SecaoCategoria key={indice} corCategoria={item.cor} categoria={item.nome}/>)}
-      
     </Container>
     </>
     
