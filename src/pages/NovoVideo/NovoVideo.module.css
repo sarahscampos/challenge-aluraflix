@@ -1,0 +1,116 @@
+.secaoNovoVideo {
+  background-color: var(--cinza-escuro);
+  color: white;
+  font-size: var(--fonte-principal);
+  padding: 0 5rem;
+}
+
+.secaoNovoVideo h1, p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.secaoNovoVideo h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.secaoNovoVideo h3 {
+  font-size: 1.5rem;
+  font-family: var(--fonte-secundaria);
+}
+
+.secaoNovoVideo p {
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+.linha {
+ border: 1px solid rgba(255, 255, 255, 0.206);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fonte-secundaria);
+}
+
+.formulario label {
+  margin: 1rem 0 .2rem 0;
+}
+
+.formulario input {
+  padding: .8rem .5rem;
+  border-radius: .5rem;
+  border: 3px solid rgba(255, 255, 255, 0.206);
+  background-color: transparent;
+  color: white;
+  font-family: var(--fonte-secundaria);
+}
+
+.formulario select {
+  padding: .8rem .5rem;
+  font-family: var(--fonte-secundaria);
+  border-radius: .5rem;
+  border: 3px solid rgba(255, 255, 255, 0.206);
+  background-color: transparent;
+  color: white;
+}
+
+.formulario select option {
+  color: rgb(0, 0, 0);
+}
+
+.descricao {
+  height: 100px;
+  resize: none;
+  border-radius: .5rem;
+  font-family: var(--fonte-secundaria);
+  border: 3px solid rgba(255, 255, 255, 0.206);
+  background-color: transparent;
+  color: white;
+}
+
+.containerBotao button {
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: .5rem;
+  padding: 0.3rem 1.5rem;
+  font-size: 1.1rem;
+  font-family: var(--fonte-secundaria);
+  font-weight: 700;
+}
+
+.containerBotao button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--azul-escuro);
+  border-color: var(--azul-escuro);
+  transition: .2s ease-out;
+  box-shadow: rgba(34, 113, 209, 0.3) 0px -40px 36px -28px inset;
+}
+
+.containerBotao {
+  display: flex;
+  justify-content: left;
+  gap: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.2rem;
+}
+
+.agrupamentoForms {
+  width: 100%;
+  display: flex;
+  gap: 15rem;
+}
+
+.agrupamentoCampos {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.agrupamentoCampos input, select, textarea{
+  width: 500px;
+}
+
