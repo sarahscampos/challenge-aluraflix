@@ -7,6 +7,78 @@
       "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Psp-1000.jpg/640px-Psp-1000.jpg",
       "video": "https://www.youtube.com/watch?v=oLjw5ivgNx4",
       "descricao": "oioi"
+    },
+    {
+      "id": "c60a",
+      "titulo": "PASSO A PASSO: crie a estrutura e a funcionalidade de um FORMULÁRIO DE LOGIN",
+      "imagem": "https://i.ytimg.com/an_webp/m4ORMy802r8/mqdefault_6s.webp?du=3000&sqp=CMTztLwG&rs=AOn4CLDWAzDKeicOxuvZWXKViCtiPsao-g",
+      "video": "https://www.youtube.com/embed/m4ORMy802r8",
+      "categoria": "Front End",
+      "descricao": " NA PRÁTICA: como fazer a estrutura e a funcionalidade de um FORMULÁRIO DE LOGIN em 12 minutos"
+    },
+    {
+      "id": "fc30",
+      "titulo": "PARA QUEM ESTÁ COMEÇANDO: principais dúvidas sobre começar na carreira de FRONT-END",
+      "categoria": "Front End",
+      "imagem": "https://i.ytimg.com/an_webp/I6xTDxkjjqk/mqdefault_6s.webp?du=3000&sqp=CLfntLwG&rs=AOn4CLAQall6k8V6Wly5S8bDadS7PyrIXw",
+      "video": "https://www.youtube.com/embed/I6xTDxkjjqk",
+      "descricao": "Se você está começando na CARREIRA DE FRONT-END, esse vídeo é pra você :)"
+    },
+    {
+      "id": "56ef",
+      "titulo": "REACT da plataforma da ALURA com KAROL ATTEKITA",
+      "categoria": "Front End",
+      "imagem": "https://i.ytimg.com/an_webp/COS5sIKstJg/mqdefault_6s.webp?du=3000&sqp=CNiDtbwG&rs=AOn4CLAXR6JDQ1U8Oy-PkFPTUY491Q91SQ",
+      "video": "https://www.youtube.com/embed/COS5sIKstJg",
+      "descricao": "Nesse vídeo, KAROL ATTEKITA apresentou a plataforma da Alura e destacou os pontos que ela acredita serem fundamentais *para quem quer se capacitar, entrar no mercado de tecnologia e melhorar suas habilidades*. "
+    },
+    {
+      "id": "1aed",
+      "titulo": "PORTFÓLIO BACK-END JAVASCRIPT/NODE.JS: como fazer | Hipsters: Portfólio Dev",
+      "categoria": "Back End",
+      "imagem": "https://i.ytimg.com/an_webp/YVs-BXViC7o/mqdefault_6s.webp?du=3000&sqp=CKyKtbwG&rs=AOn4CLCC-XTNrjRK7BpkZJpfNr3lHYBrkQ",
+      "video": "https://www.youtube.com/embed/YVs-BXViC7o",
+      "descricao": " Portfólio de Back-end JAVASCRIPT: PASSO A PASSO de como desenvolver um serviço de integração de API de filmes com sinopses em português"
+    },
+    {
+      "id": "d0b9",
+      "titulo": "Se prepare para uma entrevista de dev back-end | Hipsters: Entrevista de Emprego Tech",
+      "categoria": "Back End",
+      "imagem": "https://i.ytimg.com/an_webp/jzZdMEP8EkY/mqdefault_6s.webp?du=3000&sqp=CPbrtLwG&rs=AOn4CLDSyFXcNs0ZmSxYIKAym1otyWUjLw",
+      "video": "https://www.youtube.com/embed/jzZdMEP8EkY",
+      "descricao": "Você está procurando uma vaga de emprego de dev back-end ? Então, se prepare para a entrevista de forma estratégica!"
+    },
+    {
+      "id": "b63d",
+      "titulo": "[Imersão Dev Back-End] Do Código ao Mercado: O Futuro da Sua Carreira em Tecnologia",
+      "categoria": "Back End",
+      "imagem": "https://i.ytimg.com/an_webp/clfwxY3Kfss/mqdefault_6s.webp?du=3000&sqp=CIurtbwG&rs=AOn4CLCdbaXvjh08tkbTDRGCRfD-AjnseQ",
+      "video": "https://www.youtube.com/embed/clfwxY3Kfss",
+      "descricao": " Boas-vindas a última Live da Imersão Dev Back-End sobre a sua carreira na tecnologia! Guilherme Lima, Juliana Amoasei e André Lima vão te guiar nesse mergulho final, discutindo sobre o mercado Dev, o futuro da sua carreira na tecnologia e muito mais! "
+    },
+    {
+      "id": "fb6f",
+      "titulo": "As 9 Softskills mais desejadas pelas empresas",
+      "imagem": "https://i.ytimg.com/vi/SjY0zj17-8U/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA2bu5qqFaQe3Xd3aYl50zZkaW9Bg",
+      "video": "https://www.youtube.com/embed/SjY0zj17-8U?si=7hReF3FpR3N_EoV1",
+      "categoria": "Inovação e Gestão",
+      "descricao": "O que são as Softskills e por que é tão importante desenvolvê-las para se posicionar no mercado de trabalho? Neste Alura+, a Pri Stuani fala sobre as 9 habilidades comportamentais mais buscadas por empresas em seus profissionais e como elas te auxiliam no dia a dia."
+    },
+    {
+      "id": "b49d",
+      "titulo": "Soft Skills | Como otimizar a comunicação na sua empresa",
+      "imagem": "https://i.ytimg.com/vi/12B5sX1ssiI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCUbH2YiJrjskkXbjrkoxqeUENq2Q",
+      "video": "https://www.youtube.com/embed/12B5sX1ssiI?si=ClMSqKVsVvmyRPb3",
+      "categoria": "Inovação e Gestão",
+      "descricao": "Acompanhe a conversa com especialistas da área sobre o tema do nosso novo e-book: Soft Skills | Como otimizar a comunicação na sua empresa.\n"
+    },
+    {
+      "id": "e2b3",
+      "titulo": "Semana de Agilidade - Transformação Digital com Edson Portilho e Fernando Kontopp, do Itaú Unibanco",
+      "categoria": "Inovação e Gestão",
+      "imagem": "https://i.ytimg.com/vi/tPMPtLxxeXY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA1VGpUUMG_tyYqg54cJ2WZYait2A",
+      "video": "https://www.youtube.com/embed/tPMPtLxxeXY?si=6UWlH6KCpylBxqw8",
+      "descricao": "Neste papo com o Itaú Unibanco, vamos explorar de forma prática como é o processo de transformação digital em um ambiente de alta complexidade."
     }
   ]
 }

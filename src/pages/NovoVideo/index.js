@@ -45,6 +45,7 @@ const NovoVideo = () => {
                 id="titulo"
                 value={titulo}
                 onChange={(e) => setTitulo(e.target.value)}
+                required
               />
             </div>
             <div className={styles.agrupamentoCampos}>
@@ -53,6 +54,7 @@ const NovoVideo = () => {
                 id="categoria"
                 value={categoria}
                 onChange={(e) => setCategoria(e.target.value)}
+                required
               >
                 <option value="">Selecione uma categoria</option>
                 <option value="Front End">Front End</option>
@@ -70,6 +72,7 @@ const NovoVideo = () => {
                 id="imagem"
                 value={imagem}
                 onChange={(e) => setImagem(e.target.value)}
+                required
               />
             </div>
             <div className={styles.agrupamentoCampos}>
@@ -80,6 +83,7 @@ const NovoVideo = () => {
                 id="video"
                 value={video}
                 onChange={(e) => setVideo(e.target.value)}
+                required
               />
             </div>
           </div>
@@ -93,6 +97,7 @@ const NovoVideo = () => {
                 className={styles.descricao}
                 value={descricao}
                 onChange={(e) => setDescricao(e.target.value)}
+                required
               />
             </div>
           </div>
