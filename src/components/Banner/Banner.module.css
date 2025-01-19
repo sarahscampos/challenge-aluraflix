@@ -5,6 +5,12 @@
   height: 550px;
   background-size: cover;
   background-repeat: no-repeat;
+
+}
+
+.container p, h3 {
+  text-align: left;
+  color: white;
 }
 
 .container iframe {

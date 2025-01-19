@@ -1,8 +1,9 @@
 import Banner from 'components/Banner';
 import Container from 'components/Container';
-import Modal from 'components/Modal';
+
 import SecaoCategoria from 'components/SecaoCategoria';
-import { ModalContext } from 'Contextos/modal';
+
+import VideoProvider, { VideoContext } from 'Contextos/video';
 import React, { useContext } from 'react'
 
 const categorias = [
@@ -21,14 +22,26 @@ const categorias = [
 ]
 
 const Inicio = () => {
-  const urlVideo ='https://www.youtube.com/embed/vJ3CXirefq8?si=_PCESd0OPCG0BWeU';
-  const urlImagem = 'https://placehold.co/600x400?text=Hello+World';
+
+  const {dados} = useContext(VideoContext);
+
+  const getCorCategoria = (nomeCategoria) => {
+    const categoria = categorias.find(categoria => categoria.nome === nomeCategoria);
+    return categoria ? categoria.cor : '#F04191'; 
+  };
+
   return (
     <>
     <Container>
-      <Banner topicoVideo='front end' nomeVideo='Teste' descricaoVideo='etc' urlVideo={urlVideo} urlImagem={urlImagem} corCategoria='#6BD1FF'/>
+      {dados[1] && <Banner topicoVideo={dados[1].categoria} nomeVideo={dados[1].titulo} descricaoVideo={dados[1].descricao} urlVideo={dados[1].video} urlImagem={dados[1].imagem}corCategoria={getCorCategoria(dados[1].categoria)}/>}
+      
 
-      {categorias.map((item, indice) => <SecaoCategoria key={indice} corCategoria={item.cor} categoria={item.nome}/>)}
+      {categorias.map((item, indice) => (
+        <VideoProvider>
+          <SecaoCategoria key={indice} corCategoria={item.cor} categoria={item.nome}/>
+        </VideoProvider>
+        ))
+      }
     </Container>
     </>
     
