@@ -45,6 +45,7 @@ const Modal = ({ cardEdit }) => {
               id="titulo"
               value={formData.titulo}
               onChange={handleChange}
+              required
             />
             <label htmlFor="categoria">Categoria</label>
             <select
@@ -52,6 +53,7 @@ const Modal = ({ cardEdit }) => {
               name="categoria"
               value={formData.categoria}
               onChange={handleChange}
+              required
             >
               <option value="">Selecione uma categoria</option>
               <option value="Front End">Front End</option>
@@ -65,6 +67,7 @@ const Modal = ({ cardEdit }) => {
               id="imagem"
               value={formData.imagem}
               onChange={handleChange}
+              required
             />
             <label htmlFor="video">Vídeo</label>
             <input
@@ -73,6 +76,7 @@ const Modal = ({ cardEdit }) => {
               id="video"
               value={formData.video}
               onChange={handleChange}
+              required
             />
             <label htmlFor="descricao">Descrição</label>
             <textarea
@@ -81,6 +85,7 @@ const Modal = ({ cardEdit }) => {
               className={styles.descricao}
               value={formData.descricao}
               onChange={handleChange}
+              required
             ></textarea>
             <div className={styles.containerBotao}>
               <button type="button" onClick={() => setFormData(cardEdit)}>Resetar</button>
