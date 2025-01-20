@@ -16,3 +16,11 @@
 .container iframe {
   border-radius: .5rem;
 }
+
+
+@media (max-width: 720px) {
+  .container {
+    display: none;
+  }
+}
+

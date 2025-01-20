@@ -39,3 +39,33 @@
 .containerBotao button:hover {
   background-color: rgba(143, 143, 143, 0.29);
 }
+
+ @media (max-width: 1200px) {
+  .containerCard {
+    width: 320px;
+  }
+
+  .containerCard img {
+    width: 320px;
+  }
+}
+
+@media (max-width: 720px) {
+  .containerCard {
+    width: 350px;
+  }
+
+  .containerCard img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 430px) {
+  .containerCard {
+    width: 300px;
+  }
+
+  .containerCard img {
+    width: 300px;
+  }
+}

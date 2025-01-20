@@ -10,7 +10,7 @@ const SecaoCategoria = ({ categoria, corCategoria }) => {
 
   return (
     <section className={styles.container}>
-      <Titulo corCategoria={corCategoria}>{categoria}</Titulo>
+      <Titulo corCategoria={corCategoria} className={styles.titulo}>{categoria}</Titulo>
       <div className={styles.cardsContainer}>
         <ModalProvider>
           {dados && dados.filter(item => item.categoria === categoria).map((item, index) => (
