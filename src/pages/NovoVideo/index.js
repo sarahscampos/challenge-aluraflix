@@ -24,9 +24,16 @@ const NovoVideo = () => {
     };
 
     createCard(newCard);
-
+    handleClear();
   };
 
+  const handleClear = () => {
+    setTitulo('');
+    setCategoria('');
+    setImagem('');
+    setVideo('');
+    setDescricao('');
+  }
   return (
     <Container>
       <section className={styles.secaoNovoVideo}>
@@ -102,7 +109,7 @@ const NovoVideo = () => {
             </div>
           </div>
           <div className={styles.containerBotao}>
-            <button type="button" onClick={() => {}}>Limpar</button>
+            <button type="button" onClick={handleClear}>Limpar</button>
             <button type="submit">Confirmar</button>
           </div>
         </form>
