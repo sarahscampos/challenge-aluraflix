@@ -1,84 +1,52 @@
 {
   "cards": [
     {
-      "id": "3883",
-      "titulo": "teste",
-      "categoria": "frontend",
-      "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Psp-1000.jpg/640px-Psp-1000.jpg",
-      "video": "https://www.youtube.com/watch?v=oLjw5ivgNx4",
-      "descricao": "oioi"
-    },
-    {
-      "id": "c60a",
-      "titulo": "PASSO A PASSO: crie a estrutura e a funcionalidade de um FORMULÁRIO DE LOGIN",
-      "imagem": "https://i.ytimg.com/an_webp/m4ORMy802r8/mqdefault_6s.webp?du=3000&sqp=CMTztLwG&rs=AOn4CLDWAzDKeicOxuvZWXKViCtiPsao-g",
-      "video": "https://www.youtube.com/embed/m4ORMy802r8",
+      "id": "bc47",
+      "titulo": "SSO A PASSO: crie a estrutura e a funcionalidade de um FORMULÁRIO DE LOGIN",
       "categoria": "Front End",
-      "descricao": " NA PRÁTICA: como fazer a estrutura e a funcionalidade de um FORMULÁRIO DE LOGIN em 12 minutos"
+      "imagem": "https://i.ytimg.com/vi/m4ORMy802r8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBvUAEnaex_OzZpr3FP1WUreDtrTQ",
+      "video": "https://www.youtube.com/embed/m4ORMy802r8&t=1s",
+      "descricao": "NA PRÁTICA: como fazer a estrutura e a funcionalidade de um FORMULÁRIO DE LOGIN em 12 minutos"
     },
     {
-      "id": "fc30",
-      "titulo": "PARA QUEM ESTÁ COMEÇANDO: principais dúvidas sobre começar na carreira de FRONT-END",
-      "categoria": "Front End",
-      "imagem": "https://i.ytimg.com/an_webp/I6xTDxkjjqk/mqdefault_6s.webp?du=3000&sqp=CLfntLwG&rs=AOn4CLAQall6k8V6Wly5S8bDadS7PyrIXw",
-      "video": "https://www.youtube.com/embed/I6xTDxkjjqk",
-      "descricao": "Se você está começando na CARREIRA DE FRONT-END, esse vídeo é pra você :)"
-    },
-    {
-      "id": "56ef",
-      "titulo": "REACT da plataforma da ALURA com KAROL ATTEKITA",
-      "categoria": "Front End",
-      "imagem": "https://i.ytimg.com/an_webp/COS5sIKstJg/mqdefault_6s.webp?du=3000&sqp=CNiDtbwG&rs=AOn4CLAXR6JDQ1U8Oy-PkFPTUY491Q91SQ",
-      "video": "https://www.youtube.com/embed/COS5sIKstJg",
-      "descricao": "Nesse vídeo, KAROL ATTEKITA apresentou a plataforma da Alura e destacou os pontos que ela acredita serem fundamentais *para quem quer se capacitar, entrar no mercado de tecnologia e melhorar suas habilidades*. "
-    },
-    {
-      "id": "1aed",
-      "titulo": "PORTFÓLIO BACK-END JAVASCRIPT/NODE.JS: como fazer | Hipsters: Portfólio Dev",
+      "id": "5f41",
+      "titulo": "O que é Node JS?",
       "categoria": "Back End",
-      "imagem": "https://i.ytimg.com/an_webp/YVs-BXViC7o/mqdefault_6s.webp?du=3000&sqp=CKyKtbwG&rs=AOn4CLCC-XTNrjRK7BpkZJpfNr3lHYBrkQ",
-      "video": "https://www.youtube.com/embed/YVs-BXViC7o",
-      "descricao": " Portfólio de Back-end JAVASCRIPT: PASSO A PASSO de como desenvolver um serviço de integração de API de filmes com sinopses em português"
+      "imagem": "https://i.ytimg.com/vi/GKR6uSvEj8w/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJ0DOVSGbtrX2TQwyf44LjqLTxNg",
+      "video": "https://www.youtube.com/embed/GKR6uSvEj8w",
+      "descricao": "Neste episódio do Hipsters.tube, Mario Souto e Paulo Silveira conversam sobre o Node .JS, eles explicam o que essa plataforma tão utilizada no universo Front-end faz, como ela surgiu e quais são suas aplicações."
     },
     {
-      "id": "d0b9",
-      "titulo": "Se prepare para uma entrevista de dev back-end | Hipsters: Entrevista de Emprego Tech",
-      "categoria": "Back End",
-      "imagem": "https://i.ytimg.com/an_webp/jzZdMEP8EkY/mqdefault_6s.webp?du=3000&sqp=CPbrtLwG&rs=AOn4CLDSyFXcNs0ZmSxYIKAym1otyWUjLw",
-      "video": "https://www.youtube.com/embed/jzZdMEP8EkY",
-      "descricao": "Você está procurando uma vaga de emprego de dev back-end ? Então, se prepare para a entrevista de forma estratégica!"
+      "id": "555c",
+      "titulo": "Guia de carreira Front-end",
+      "categoria": "Front End",
+      "imagem": "https://i.ytimg.com/vi/fpth65ts3cw/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDUavg3vG4pLrz1D2vrg_c-3wFB-g",
+      "video": "https://www.youtube.com/embed/fpth65ts3cw",
+      "descricao": "Nova temporada de Hipsters.tube no ar e agora com foco em carreira! "
     },
     {
-      "id": "b63d",
+      "id": "697d",
       "titulo": "[Imersão Dev Back-End] Do Código ao Mercado: O Futuro da Sua Carreira em Tecnologia",
       "categoria": "Back End",
-      "imagem": "https://i.ytimg.com/an_webp/clfwxY3Kfss/mqdefault_6s.webp?du=3000&sqp=CIurtbwG&rs=AOn4CLCdbaXvjh08tkbTDRGCRfD-AjnseQ",
-      "video": "https://www.youtube.com/embed/clfwxY3Kfss",
-      "descricao": " Boas-vindas a última Live da Imersão Dev Back-End sobre a sua carreira na tecnologia! Guilherme Lima, Juliana Amoasei e André Lima vão te guiar nesse mergulho final, discutindo sobre o mercado Dev, o futuro da sua carreira na tecnologia e muito mais! "
+      "imagem": "https://i.ytimg.com/vi/clfwxY3Kfss/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDEUhC0jhWEDRpVDT4OMxozMBMt5Q",
+      "video": "https://www.youtube.com/embed/clfwxY3Kfss&t=5s",
+      "descricao": "Boas-vindas a última Live da Imersão Dev Back-End sobre a sua carreira na tecnologia! Guilherme Lima, Juliana Amoasei e André Lima vão te guiar nesse mergulho final, discutindo sobre o mercado Dev, o futuro da sua carreira na tecnologia e muito mais!"
     },
     {
-      "id": "fb6f",
-      "titulo": "As 9 Softskills mais desejadas pelas empresas",
-      "imagem": "https://i.ytimg.com/vi/SjY0zj17-8U/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA2bu5qqFaQe3Xd3aYl50zZkaW9Bg",
-      "video": "https://www.youtube.com/embed/SjY0zj17-8U?si=7hReF3FpR3N_EoV1",
+      "id": "0938",
+      "titulo": "O que é gestão de carreira?",
       "categoria": "Inovação e Gestão",
-      "descricao": "O que são as Softskills e por que é tão importante desenvolvê-las para se posicionar no mercado de trabalho? Neste Alura+, a Pri Stuani fala sobre as 9 habilidades comportamentais mais buscadas por empresas em seus profissionais e como elas te auxiliam no dia a dia."
+      "imagem": "https://i.ytimg.com/vi/unz-EGRNVa0/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDg8trTeoAvVZi4H5PUBbNySju0sA",
+      "video": "https://www.youtube.com/embed/unz-EGRNVa0",
+      "descricao": "A gestão de carreira vai muito além de investir em conhecimento na área que você trabalha ou quer atuar. Estar qualificado para o mercado envolve diversos fatores e processos. Mas, quais são eles? A Pri Stuani esclarece neste vídeo. "
     },
     {
-      "id": "b49d",
-      "titulo": "Soft Skills | Como otimizar a comunicação na sua empresa",
-      "imagem": "https://i.ytimg.com/vi/12B5sX1ssiI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCUbH2YiJrjskkXbjrkoxqeUENq2Q",
-      "video": "https://www.youtube.com/embed/12B5sX1ssiI?si=ClMSqKVsVvmyRPb3",
+      "id": "4525",
+      "titulo": "Organização de Estudos com Notion",
       "categoria": "Inovação e Gestão",
-      "descricao": "Acompanhe a conversa com especialistas da área sobre o tema do nosso novo e-book: Soft Skills | Como otimizar a comunicação na sua empresa.\n"
-    },
-    {
-      "id": "e2b3",
-      "titulo": "Semana de Agilidade - Transformação Digital com Edson Portilho e Fernando Kontopp, do Itaú Unibanco",
-      "categoria": "Inovação e Gestão",
-      "imagem": "https://i.ytimg.com/vi/tPMPtLxxeXY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLA1VGpUUMG_tyYqg54cJ2WZYait2A",
-      "video": "https://www.youtube.com/embed/tPMPtLxxeXY?si=6UWlH6KCpylBxqw8",
-      "descricao": "Neste papo com o Itaú Unibanco, vamos explorar de forma prática como é o processo de transformação digital em um ambiente de alta complexidade."
+      "imagem": "https://i.ytimg.com/vi/fjyrNqYcKvs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCj-8WSufPoK1QDrBh7d27CsTeSYg",
+      "video": "https://www.youtube.com/embed/fjyrNqYcKvs",
+      "descricao": "Sempre está perdido com tantos links, livros e tópicos para estudar? É importante planejar  e ter um caminho! O Mario Souto, DevSoutinho, vai te ajudar. O Alura+ de hoje é para conversar sobre o Notion: uma ferramenta que com sua tecnologia permite que você organize coisas do seu trabalho e dia a dia com em um só lugar! Assista o vídeo e descubra como ela pode ser útil pra você!"
     }
   ]
 }
