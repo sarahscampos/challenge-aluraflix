@@ -47,6 +47,7 @@
   display: flex;
   flex-direction: column;
   font-family: var(--fonte-secundaria);
+  box-sizing: border-box;
 }
 
 .formulario label {
@@ -60,10 +61,12 @@
   background-color: transparent;
   color: white;
   font-family: var(--fonte-secundaria);
+  width: auto;
 }
 
 .formulario textarea {
   padding: .8rem .5rem;
+  width: auto;
 }
 
 .formulario select {
@@ -73,10 +76,12 @@
   border: 3px solid var(--azul-escuro);
   background-color: transparent;
   color: white;
+  width: auto;
 }
 
 .formulario select option {
   color: black;
+  
 }
 
 .descricao {
@@ -115,3 +120,32 @@
   margin-bottom: 2.2rem;
 }
 
+@media (max-width: 1000px) {
+  .container {
+    padding: 1rem 5rem;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+  }
+
+  .containerBotao button {
+    font-size: .8rem;
+  }
+
+  .containerBotao {
+    gap: 1rem;
+    justify-content: center;
+  }
+  .formulario {
+    width: 100%;
+    font-size: .9rem;
+    box-sizing: border-box;
+  }
+
+  .botaoSair {
+    transform: scale(.8);
+    right: 1rem;
+    top: 1rem;
+  }
+}
